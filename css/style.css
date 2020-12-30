@@ -75,3 +75,45 @@ h2 {
 .button-downloads {
   margin-right: 24px;
 }
+/*FOOTER*/
+.footer-icon svg {
+  width: 56px;
+  height: 56px;
+}
+.footer-title {
+  padding-top: 72px;
+  padding-bottom: 56px;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 72px;
+}
+.footer-photo {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.footer-link {
+  display: flex;
+  flex-direction: column;
+}
+.footer-link a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #000000;
+}
+.footer-link a:nth-child(1) {
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+.footer-linkedin-icon {
+  margin: 0 16px;
+}
+.footer-icon {
+  margin-bottom: 104px;
+}
