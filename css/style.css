@@ -75,6 +75,44 @@ h2 {
 .button-downloads {
   margin-right: 24px;
 }
+/*languages*/
+.langueges {
+  background-color: rgba(250, 250, 250, 1);
+}
+.languages-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 72px;
+}
+.languages-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 56px;
+  padding-bottom: 72px;
+}
+.languages-img__phage img {
+  margin-bottom: 24px;
+}
+.languages-img__phage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.languages-level {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+.languages-level span {
+  margin-top: 8px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+}
 /*FOOTER*/
 .footer-icon svg {
   width: 56px;
