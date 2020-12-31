@@ -1,3 +1,4 @@
+@import url("./fonts.css");
 *,
 *::before,
 *::after {
@@ -50,7 +51,7 @@ h4 {
 .header-body {
   display: flex;
   justify-content: space-between;
-  margin-top: 72px;
+  margin: 72px 0;
 }
 
 .header-text h2:nth-child(2) {
@@ -157,7 +158,7 @@ h4 {
 .expirience-history__line {
   width: 1px;
   position: relative;
-  background-color: black;
+  background-color: #3d3b3c;
   display: flex;
   justify-content: center;
   margin: 0 21px;
@@ -176,10 +177,10 @@ h4 {
   color: rgba(58, 69, 118, 1);
 }
 .circle__ghu {
-  top: 71.5%;
+  top: 54%;
 }
 .circle__alfa {
-  top: 17.5%;
+  top: 23%;
 }
 .expirience-history {
   height: 400px;
@@ -229,7 +230,163 @@ h4 {
 .expirience-history__alfa-date span {
   margin-right: 48px;
 }
-
+/*Education*/
+.education-header {
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 56px;
+}
+.education-story {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 72px;
+}
+.education-story-left,
+.education-story-right {
+  flex-basis: 49%;
+  position: relative;
+}
+/*Education left-item*/
+.education-story-left-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  margin-right: 16px;
+}
+.education-story-left-belhard {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.education-story-left-desc {
+  margin-right: 48px;
+}
+.education-story-left-belhard-desc h3 {
+  margin-bottom: 4px;
+}
+.education-story-right-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-left: 16px;
+}
+.education-story-right-desc {
+  margin-left: 48px;
+}
+.education-story-right-bsuir {
+  position: absolute;
+  top: 80%;
+}
+.education-story-right-fox {
+  position: absolute;
+  top: 20%;
+}
+.education-story-line {
+  background-color: #3d3b3c;
+  height: 647px;
+  width: 1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.education-story-right-date,
+.education-story-date {
+  color: #c4c4c4;
+  font-size: 24px;
+}
+.education-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  position: absolute;
+}
+.education-circle:first-child {
+  top: 83.5%;
+}
+.education-circle:nth-child(2) {
+  top: 54%;
+}
+.education-circle:nth-child(3) {
+  top: 23.5%;
+  background-color: #3a4576;
+}
+.education-story-active {
+  color: #3a4576;
+}
+.education-desc {
+  font-size: 24px;
+}
+/*Project*/
+.project-title {
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 56px;
+}
+.section-project {
+  background-color: #fafafa;
+}
+.slick-track {
+  display: flex;
+}
+.slick-list {
+  overflow: hidden;
+}
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 56px;
+  padding-bottom: 72px;
+}
+.slick-dots li {
+  list-style: none;
+  margin: 0 17px;
+}
+.slick-dots button {
+  font-size: 0;
+  width: 17px;
+  height: 17px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #3a4576;
+}
+.project .slick-dots li.slick-active button {
+  background-color: #3a4576;
+  outline: none;
+}
+.project-slider {
+  display: flex;
+  justify-content: space-evenly;
+}
+.project-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 130px;
+}
+.project-img {
+  display: flex;
+}
+.project-desc-button {
+  width: 30%;
+  height: 10%;
+  background-color: #3a4576;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-desc-text {
+  margin-top: 8px;
+  margin-bottom: 50px;
+}
+.project-desc-text span {
+  font-size: 24px;
+  color: #bebebe;
+}
 /*languages*/
 .section-languages {
   background-color: rgba(250, 250, 250, 1);

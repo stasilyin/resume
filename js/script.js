@@ -64,4 +64,12 @@ $('.skills-btn-wrapper').on('click', function(e){
     $(this).toggleClass('skills-btn-active');
     $('.skills-wrapper').toggleClass('skills-wrapper-active');
 });
+$(document).ready(function(){
+$('.project').slick({
+  arrows:false,
+  dots: true,
+  easing: 'ease'
+  
+});
+});
 });

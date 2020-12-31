@@ -12,10 +12,11 @@
     src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
     crossorigin="anonymous"></script>
-    
+    <script src="./js/slick.min.js"></script>
     </script>
-    <link rel="stylesheet" href="./css/style.css" />
     <script type="text/javascript" src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    
     <title>Resume</title>
   </head>
   <body>
@@ -24,10 +25,10 @@
         <div class="header">
           <nav class="header-nav">
             <a href="#about" class="header-nav__link">About</a>
-            <a href="#" class="header-nav__link">Skills</a>
-            <a href="#" class="header-nav__link">Experience</a>
-            <a href="#" class="header-nav__link">Projects</a>
-            <a href="#" class="header-nav__link">Education</a>
+            <a href="#skills" class="header-nav__link">Skills</a>
+            <a href="#expirience" class="header-nav__link">Experience</a>
+            <a href="#project" class="header-nav__link">Projects</a>
+            <a href="#education" class="header-nav__link">Education</a>
             <a href="#languages" class="header-nav__link">Languages</a>
             <a href="#contactme" class="header-nav__link">Contact me</a>
           </nav>
@@ -65,6 +66,7 @@
     </header>
     <section class="section-skills">
         <div class="container">
+            <a name="skills"></a>
             <div class="skills">
                 <div class="footer-title">
                   <h2>Skills</h2>
@@ -497,6 +499,8 @@
         </div>
     </section >
     <section>
+        <a name="expirience"></a>
+        <div class="container">
         <div class="expirience">
             <div class="expirience-title"><h2>Work experience</h2></div>
             <div class="expirience-history">
@@ -511,6 +515,7 @@
                     </div>
                 </div>
                 <div class="expirience-history__line">
+                    
                    <div class="circle__ghu circle"></div>
                    <div class="circle__alfa circle circle-current"></div> 
                 </div>
@@ -526,7 +531,125 @@
                         </div>
                     </div>
             </div>
-
+        </div>
+    </section>
+   <section class="section-project">
+       <div class="container">
+           <a name="project"></a>
+           <div class="project-title"><h2>Projects</h2></div>
+           <div class="project">
+               <div class="project-slider">
+               <div class="project-img">
+                   <img src="./img/triphouse-photo.png" alt="triphouse">
+               </div>
+               <div class="project-desc">
+                   <div class="project-desc-title">
+                    <h3>Triphouse</h3>
+                   </div>
+                   <div class="project-desc-text">
+                    <span>Landing-page for online travel agency for lodging reservations.</span>
+                   </div>
+                   <div class="project-desc-button">
+                    <span>Seen on GitHub</span>
+                   </div>
+               </div>
+            </div>
+            <div class="project-slider">
+                <div class="project-img">
+                    <img src="./img/triphouse-photo.png" alt="triphouse">
+                </div>
+                <div class="project-desc">
+                    <div class="project-desc-title">
+                     <h3>1</h3>
+                    </div>
+                    <div class="project-desc-text">
+                     <span>Landing-page for online travel agency for lodging reservations.</span>
+                    </div>
+                    <div class="project-desc-button">
+                     <span>Seen on GitHub</span>
+                    </div>
+                </div>
+             </div>
+             <div class="project-slider">
+                <div class="project-img">
+                    <img src="./img/triphouse-photo.png" alt="triphouse">
+                </div>
+                <div class="project-desc">
+                    <div class="project-desc-title">
+                     <h3>2</h3>
+                    </div>
+                    <div class="project-desc-text">
+                     <span>Landing-page for online travel agency for lodging reservations.</span>
+                    </div>
+                    <div class="project-desc-button">
+                     <span>Seen on GitHub</span>
+                    </div>
+                </div>
+             </div>
+             <div class="project-slider">
+                <div class="project-img">
+                    <img src="./img/triphouse-photo.png" alt="triphouse">
+                </div>
+                <div class="project-desc">
+                    <div class="project-desc-title">
+                     <h3>3</h3>
+                    </div>
+                    <div class="project-desc-text">
+                     <span>Landing-page for online travel agency for lodging reservations.</span>
+                    </div>
+                    <div class="project-desc-button">
+                     <span>Seen on GitHub</span>
+                    </div>
+                </div>
+             </div>
+           </div>
+       </div>
+   </section>
+    <section>
+        <div class="container">
+            <a name="education"></a>
+            <div class="education">
+                <div class="education-header"><h2>Education</h2></div>
+                <div class="education-story">
+                    <div class="education-story-left">
+                        <div class="education-story-left-belhard education-story-left-item">
+                        <div class="education-story-left-belhard-desc education-story-left-desc">
+                            <h3>IT Academy Belhard</h3>
+                            <span class="education-desc">QA basic course</span>
+                        </div> 
+                        <div class="education-story-left-belhard-date education-story-date">
+                            <span>Feb-Apr 2020</span>
+                        </div> 
+                    </div>
+                    </div>
+                    <div class="education-story-line">
+                        <div class="education-circle"></div>
+                        <div class="education-circle"></div>
+                        <div class="education-circle"></div>
+                    </div>
+                    <div class="education-story-right">
+                        <div class="education-story-right-fox education-story-right-item">
+                            <div class="education-story-right-fox-desc education-story-right-desc">
+                                <h3>IT School Intellect Fox</h3>
+                                <span class="education-desc">Front-end developer course</span>
+                            </div> 
+                            <div class="education-story-right-fox-date education-story-right-date education-story-active">
+                                <span>Nov 2020 - May 2021</span>
+                            </div> 
+                        </div>
+                        <div class="education-story-right-bsuir education-story-right-item">
+                            <div class="education-story-right-bsuir-desc education-story-right-desc">
+                                <h3>BSUIR</h3>
+                                <span class="education-desc">Software Engineer</span>
+                            </div> 
+                            <div class="education-story-left-bsuir-date education-story-right-date">
+                                <span>Sep 2015 - Jan 2019</span>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="section-languages">
       <div class="container">
