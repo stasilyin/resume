@@ -161,16 +161,6 @@ h4 {
   justify-content: center;
   align-items: center;
 }
-.star {
-  fill: #bebebe;
-  width: 26px;
-  height: 26px;
-  text-align: center;
-  cursor: pointer;
-}
-.star.active {
-  fill: black;
-}
 /*expirience-history*/
 .expirience-title {
   text-align: center;
@@ -354,7 +344,8 @@ h4 {
 .section-project {
   background-color: #fafafa;
 }
-.slick-track {
+
+/* .slick-track {
   display: flex;
 }
 .slick-list {
@@ -381,11 +372,13 @@ h4 {
 }
 .project .slick-dots li.slick-active button {
   background-color: #3a4576;
-  outline: none;
+  outline-style: none;
 }
+*/
 .project-slider {
   display: flex;
   justify-content: space-evenly;
+  min-width: 0;
 }
 .project-desc {
   display: flex;
@@ -412,6 +405,32 @@ h4 {
 .project-desc-text span {
   font-size: 24px;
   color: #bebebe;
+}
+.swiper-pagination {
+  top: 426px;
+}
+.swiper-container {
+  padding-bottom: 145px;
+}
+.swiper-container-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 17px;
+  height: 17px;
+  line-height: 17px;
+  background-color: transparent;
+  border: 1px solid #3a4576;
+  margin: 0 17px;
+  opacity: 1;
+}
+.swiper-container-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet-active {
+  background-color: #3a4576;
+  outline-style: none;
+}
+.swiper-wrapper {
+  padding-left: 2px;
 }
 /*languages*/
 .section-languages {
