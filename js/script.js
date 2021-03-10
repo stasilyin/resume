@@ -51,6 +51,8 @@ skillsBtnWrapper.addEventListener("click", toggleBtnWrapper);
 const tripHouse = document.querySelector('.tripHouse');
 const resume = document.querySelector('.resume');
 const mobileScreen = window.matchMedia('(max-width: 768px)');
+
+
 const changeText = (e) => {
   if (e.matches) {
     tripHouse.textContent = 'Triphouse – Github';
@@ -63,5 +65,7 @@ const changeText = (e) => {
 if (mobileScreen.matches) {
   tripHouse.textContent = 'Triphouse – Github';
   resume.textContent = 'Landing CV – Github';
+  const myPhoto = document.querySelector('.header-photo');
+  document.querySelector('.header-discription').before(myPhoto);
 } 
 mobileScreen.addEventListener('change', changeText);

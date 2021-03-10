@@ -83,6 +83,7 @@ a {
 .header-photo {
   width: 414px;
   height: 464px;
+  
 }
 .header-photo__myphoto {
   width: 100%;
@@ -508,8 +509,7 @@ a {
 
 @media only screen and (max-width: 768px) {
   .container {
-    min-width: 360px;
-    width: 85%;
+    width: 78%;
   }
   h2 {
     font-size: 42px;
@@ -536,24 +536,21 @@ a {
     max-width: 100%;
   }
   .header-photo {
-    width: 100%;
-    height: 100%;
-  }
-  .header-photo__myphoto {
-    width: 100%;
-    height: 100%;
+    width: 295px;
+    height: 366px;
+    margin-bottom: 32px;
   }
   .header-body {
     display: flex;
     flex-wrap: wrap;
     margin: 56px 0;
+    justify-content: center;
   }
   .button-contact {
     display: none;
   }
   .header-buttons {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 24px;
   }
   .header-buttons a {
     font-size: 20px;
@@ -709,16 +706,16 @@ a {
   }
   .education-story-left-belhard {
     top: 11rem;
-    left: 2.7rem;
+    left: 2.1rem;
     width: 100%;
   }
   .education-story-right-bsuir {
     top: 19rem;
-    left: -11rem;
+    left: -9rem;
   }
   .education-story-right-fox {
-    top: 3.5rem;
-    left: -11rem;
+    top: 3rem;
+    left: -9rem;
   }
   .education-story-left-desc {
     margin-right: 0;
