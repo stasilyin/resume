@@ -273,7 +273,7 @@ a {
 .education-story {
   display: flex;
   justify-content: center;
-  padding-bottom: 72px;
+  
 }
 .education-story-left,
 .education-story-right {
@@ -508,11 +508,12 @@ a {
 
 @media only screen and (max-width: 768px) {
   .container {
-    width: 360px;
     min-width: 360px;
+    width: 85%;
   }
   h2 {
     font-size: 42px;
+    line-height: 42px;
   }
   a {
     cursor: pointer;
@@ -527,10 +528,11 @@ a {
     margin-bottom: 40px;
     line-height: 28px;
     margin-top: 24px;
+    font-weight: 400;
   }
   .header-discription {
     font-size: 18px;
-    line-height: 26px;
+    line-height: 21px;
     max-width: 100%;
   }
   .header-photo {
@@ -696,8 +698,6 @@ a {
   }
   .education-story-left-item {
     display: block;
-    justify-content: flex-end;
-    margin-right: 0;
     text-align: left;
   }
   .education-story-right-item {
@@ -725,6 +725,8 @@ a {
   }
   .education-desc {
     font-size: 20px;
+    padding-top:8px;
+    padding-bottom: 12px;
   }
   .education-story-right-date,
   .education-story-date {
